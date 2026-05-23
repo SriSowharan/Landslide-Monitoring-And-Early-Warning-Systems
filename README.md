@@ -8,8 +8,6 @@ A comprehensive system for monitoring geological conditions and providing early 
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Architecture](#architecture)
 - [Data Sources](#data-sources)
 - [Contributing](#contributing)
