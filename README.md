@@ -78,56 +78,6 @@ Landslide-Monitoring-And-Early-Warning-Systems/
 
 See `requirements.txt` for complete dependency list.
 
-## 📦 Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/SriSowharan/Landslide-Monitoring-And-Early-Warning-Systems.git
-   cd Landslide-Monitoring-And-Early-Warning-Systems
-   ```
-
-2. **Create a virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Configure environment variables**
-   ```bash
-   cp .env.example .env
-   # Edit .env with your configuration
-   ```
-
-5. **Initialize the database**
-   ```bash
-   python scripts/init_db.py
-   ```
-
-## 🚀 Usage
-
-### Running the Monitoring System
-```bash
-python src/monitoring/main.py
-```
-
-### Starting the API Server
-```bash
-python src/api/app.py
-```
-
-### Running Analysis
-```bash
-jupyter notebook notebooks/analysis.ipynb
-```
-
-### Viewing the Dashboard
-Navigate to `http://localhost:5000` in your web browser.
-
 ## 🏗️ Architecture
 
 The system consists of several key components:
